@@ -19,7 +19,7 @@ from typing import List, Tuple
 from tools.skills_guard_credentials import SKILL_ONLY_PATTERNS, code_views, raise_provider_key_reads
 
 
-SCANNER_VERSION = "skills-guard-v12"
+SCANNER_VERSION = "skills-guard-v13"
 
 # NVIDIA-verified skills each ship a signed `skill.oms.sig` + governance `skill-card.md`.
 TRUSTED_REPOS = {
